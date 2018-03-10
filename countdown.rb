@@ -1,7 +1,8 @@
 #write your code here
-number = 10
+
 
 def countdown
+  number = 10
   while number > 0
     puts "#{number} SECOND(S)!"
     number -= 1
@@ -9,9 +10,10 @@ def countdown
   end
 end
 
-integer = 10
+
 
 def countdown_with_sleep
+  integer = 10
   while integer > 0
     puts "#{integer} SECOND(S)!"
     integer -= 1
